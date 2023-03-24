@@ -5,26 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9d56d34-0dc6-46fd-a003-63545e8b2aa8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/ejet/base/BaseClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/ejet/config/RegisterWebsiteUser.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/ejet/index_pages/Index_Main_Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/ejet/index_pages/Lateral_Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/ejet/index_pages/RegisterWebsiteUser_Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/ejet/index_pages/Webinar_Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/ejet/registerwebsiteuser/Educational_Qualification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/ejet/registerwebsiteuser/Email_Id.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/ejet/registerwebsiteuser/Enter_Phone_Number.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/ejet/registerwebsiteuser/Full_Name.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/ejet/registerwebsiteuser/Select_Year_Of_Passout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bridgelabz/ejet/registerwebsiteuser_Test/Enter_Phone_Number_Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bridgelabz/ejet/testcases/Index_Main_Page_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/ejet/registerwebsiteuser/Submit_Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/bridgelabz/ejet/registerwebsiteuser_Test/Educational_Qualification_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/bridgelabz/ejet/registerwebsiteuser_Test/Email_Id_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/bridgelabz/ejet/registerwebsiteuser_Test/Full_Name_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/bridgelabz/ejet/registerwebsiteuser_Test/Select_Year_Of_Passout_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/bridgelabz/ejet/registerwebsiteuser_Test/Submit_Button_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/ejet/config/RegisterWebsiteUser.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/ejet/config/RegisterWebsiteUser.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/ejet/registerwebsiteuser/Educational_Qualification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/ejet/registerwebsiteuser/Educational_Qualification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/ejet/registerwebsiteuser/Email_Id.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/ejet/registerwebsiteuser/Email_Id.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/ejet/registerwebsiteuser/Full_Name.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/ejet/registerwebsiteuser/Full_Name.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/ejet/registerwebsiteuser/Select_Year_Of_Passout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/ejet/registerwebsiteuser/Select_Year_Of_Passout.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,8 +49,8 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.Enter_Phone_Number_Test.new_User_Enter_Valid_Phn_No_And_Remove_Form_Phn_No_Field">
-    <configuration name="Enter_Phone_Number_Test.Phn_Number_With_Plus_NinetyOne" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Full_Name_Test.three_Char_FirstName_And_Two_Char_LastName_Test">
+    <configuration name="Full_Name_Test.three_Char_FirstName_And_Two_Char_LastName_Test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Ejet_Index_Page" />
       <extension name="coverage">
         <pattern>
@@ -67,80 +59,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.bridgelabz.ejet.registerwebsiteuser_Test" />
-      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.ejet.registerwebsiteuser_Test.Enter_Phone_Number_Test" />
-      <option name="METHOD_NAME" value="Phn_Number_With_Plus_NinetyOne" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Enter_Phone_Number_Test.Phn_Number_With_Space" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Ejet_Index_Page" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bridgelabz.ejet.registerwebsiteuser_Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.bridgelabz.ejet.registerwebsiteuser_Test" />
-      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.ejet.registerwebsiteuser_Test.Enter_Phone_Number_Test" />
-      <option name="METHOD_NAME" value="Phn_Number_With_Space" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Enter_Phone_Number_Test.new_User_Enter_InValid_Phn_No_And_Remove_Form_Phn_No_Field" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Ejet_Index_Page" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bridgelabz.ejet.registerwebsiteuser_Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.bridgelabz.ejet.registerwebsiteuser_Test" />
-      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.ejet.registerwebsiteuser_Test.Enter_Phone_Number_Test" />
-      <option name="METHOD_NAME" value="new_User_Enter_InValid_Phn_No_And_Remove_Form_Phn_No_Field" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Enter_Phone_Number_Test.new_User_Enter_Valid_Phn_No_And_Remove_Form_Phn_No_Field" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Ejet_Index_Page" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bridgelabz.ejet.registerwebsiteuser_Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.bridgelabz.ejet.registerwebsiteuser_Test" />
-      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.ejet.registerwebsiteuser_Test.Enter_Phone_Number_Test" />
-      <option name="METHOD_NAME" value="new_User_Enter_Valid_Phn_No_And_Remove_Form_Phn_No_Field" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Enter_Phone_Number_Test.nineDigit_Phn_Number" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Ejet_Index_Page" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bridgelabz.ejet.registerwebsiteuser_Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.bridgelabz.ejet.registerwebsiteuser_Test" />
-      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.ejet.registerwebsiteuser_Test.Enter_Phone_Number_Test" />
-      <option name="METHOD_NAME" value="nineDigit_Phn_Number" />
+      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.ejet.registerwebsiteuser_Test.Full_Name_Test" />
+      <option name="METHOD_NAME" value="three_Char_FirstName_And_Two_Char_LastName_Test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -176,21 +96,93 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Select_Year_Of_Passout_Test.not_Select_any_passOut_Year_Test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Ejet_Index_Page" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bridgelabz.ejet.registerwebsiteuser_Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bridgelabz.ejet.registerwebsiteuser_Test" />
+      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.ejet.registerwebsiteuser_Test.Select_Year_Of_Passout_Test" />
+      <option name="METHOD_NAME" value="not_Select_any_passOut_Year_Test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Select_Year_Of_Passout_Test.select_After_TwoThousandTwentyFour_Test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Ejet_Index_Page" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bridgelabz.ejet.registerwebsiteuser_Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bridgelabz.ejet.registerwebsiteuser_Test" />
+      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.ejet.registerwebsiteuser_Test.Select_Year_Of_Passout_Test" />
+      <option name="METHOD_NAME" value="select_After_TwoThousandTwentyFour_Test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Submit_Button_Test.click_Disable_Submit_Button_Test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Ejet_Index_Page" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bridgelabz.ejet.registerwebsiteuser_Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bridgelabz.ejet.registerwebsiteuser_Test" />
+      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.ejet.registerwebsiteuser_Test.Submit_Button_Test" />
+      <option name="METHOD_NAME" value="click_Disable_Submit_Button_Test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Submit_Button_Test.click_Enable_EnterButton" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Ejet_Index_Page" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bridgelabz.ejet.registerwebsiteuser_Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bridgelabz.ejet.registerwebsiteuser_Test" />
+      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.ejet.registerwebsiteuser_Test.Submit_Button_Test" />
+      <option name="METHOD_NAME" value="click_Enable_EnterButton" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="TestNG.Index_Main_Page_Test.click_Attend_Orientation_Button_And_Check_Nagigated_To_Webinar_page" />
-      <item itemvalue="TestNG.Enter_Phone_Number_Test.Phn_Number_With_Plus_NinetyOne" />
-      <item itemvalue="TestNG.Enter_Phone_Number_Test.Phn_Number_With_Space" />
-      <item itemvalue="TestNG.Enter_Phone_Number_Test.new_User_Enter_InValid_Phn_No_And_Remove_Form_Phn_No_Field" />
-      <item itemvalue="TestNG.Enter_Phone_Number_Test.new_User_Enter_Valid_Phn_No_And_Remove_Form_Phn_No_Field" />
-      <item itemvalue="TestNG.Enter_Phone_Number_Test.nineDigit_Phn_Number" />
+      <item itemvalue="TestNG.Full_Name_Test.three_Char_FirstName_And_Two_Char_LastName_Test" />
+      <item itemvalue="TestNG.Select_Year_Of_Passout_Test.not_Select_any_passOut_Year_Test" />
+      <item itemvalue="TestNG.Select_Year_Of_Passout_Test.select_After_TwoThousandTwentyFour_Test" />
+      <item itemvalue="TestNG.Submit_Button_Test.click_Disable_Submit_Button_Test" />
+      <item itemvalue="TestNG.Submit_Button_Test.click_Enable_EnterButton" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Enter_Phone_Number_Test.new_User_Enter_Valid_Phn_No_And_Remove_Form_Phn_No_Field" />
-        <item itemvalue="TestNG.Enter_Phone_Number_Test.new_User_Enter_InValid_Phn_No_And_Remove_Form_Phn_No_Field" />
-        <item itemvalue="TestNG.Enter_Phone_Number_Test.nineDigit_Phn_Number" />
-        <item itemvalue="TestNG.Enter_Phone_Number_Test.Phn_Number_With_Plus_NinetyOne" />
-        <item itemvalue="TestNG.Enter_Phone_Number_Test.Phn_Number_With_Space" />
+        <item itemvalue="TestNG.Full_Name_Test.three_Char_FirstName_And_Two_Char_LastName_Test" />
+        <item itemvalue="TestNG.Submit_Button_Test.click_Disable_Submit_Button_Test" />
+        <item itemvalue="TestNG.Submit_Button_Test.click_Enable_EnterButton" />
+        <item itemvalue="TestNG.Select_Year_Of_Passout_Test.not_Select_any_passOut_Year_Test" />
+        <item itemvalue="TestNG.Select_Year_Of_Passout_Test.select_After_TwoThousandTwentyFour_Test" />
       </list>
     </recent_temporary>
   </component>
