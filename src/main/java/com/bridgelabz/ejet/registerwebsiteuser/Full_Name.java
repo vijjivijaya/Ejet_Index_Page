@@ -49,6 +49,8 @@ public class Full_Name extends BaseClass {
         } else if (error_msg.equals("No space after first & last name")) {
             value= fullname_error_msg6.isDisplayed();
         }
+        full_name.clear();
+        Thread.sleep(3000);
         return value;
     }
     public boolean invalid_FullName(String invalid_name) throws InterruptedException {
@@ -67,6 +69,8 @@ public class Full_Name extends BaseClass {
         } else if (error_msg.equals("No space after first & last name")) {
             value= fullname_error_msg6.isDisplayed();
         }
+        full_name.clear();
+        Thread.sleep(3000);
         return value;
     }
     public boolean enter_And_Remove_Value_From_FullName(String name) throws InterruptedException {
@@ -78,6 +82,5 @@ public class Full_Name extends BaseClass {
         boolean  value = fullname_error_msg1.isDisplayed();
         return value;
     }
-
-
 }
+

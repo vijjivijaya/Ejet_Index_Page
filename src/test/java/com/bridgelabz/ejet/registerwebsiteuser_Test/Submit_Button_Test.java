@@ -22,7 +22,7 @@ public class Submit_Button_Test extends BaseClass {
     }
     @BeforeMethod
     public void setUp() throws IOException {
-        launch_RegisterwebsiteUser(prop.getProperty("RegisterwebsiteUserUrl"));
+        initialization(prop.getProperty("RegisterwebsiteUserUrl"));
         submit_button = new Submit_Button(driver);
         enter_phone_number = new Enter_Phone_Number(driver);
         full_name = new Full_Name(driver);

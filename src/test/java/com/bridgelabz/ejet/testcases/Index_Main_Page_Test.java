@@ -22,7 +22,7 @@ public class Index_Main_Page_Test extends BaseClass {
     }
     @BeforeMethod
     public void setup() throws IOException {
-        launch_Index();
+        initialization(prop.getProperty("Index_Page_Url"));
         index_main_page = new Index_Main_Page(driver);
         lateral_page = new Lateral_Page(driver);
     }
@@ -33,7 +33,6 @@ public class Index_Main_Page_Test extends BaseClass {
         String url = driver.getCurrentUrl();
         Thread.sleep(3000);
         Assert.assertEquals("https://bridgelabz.com/registerwebsitelateral?fc=Lateral&sc=WBS-LAT-WHN",url);
-        
     }
     @Test
     public void click_On_Apply_Now_And_Check_Nagigated_To_RegisterWebsiteUser_Page() throws InterruptedException, IOException {

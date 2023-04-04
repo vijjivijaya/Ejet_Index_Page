@@ -3,9 +3,7 @@ package com.bridgelabz.ejet.registerwebsiteuser_Test;
 import com.bridgelabz.ejet.base.BaseClass;
 import com.bridgelabz.ejet.registerwebsiteuser.Enter_Phone_Number;
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 import java.io.IOException;
 
@@ -15,15 +13,16 @@ public class Enter_Phone_Number_Test extends BaseClass {
     public Enter_Phone_Number_Test() throws IOException {
         super();
     }
-    @BeforeMethod
+    @BeforeTest
     public void setUp() throws IOException {
-        launch_RegisterwebsiteUser(prop.getProperty("RegisterwebsiteUserUrl"));
+        initialization(prop.getProperty("RegisterwebsiteUserUrl"));
         phone_number = new Enter_Phone_Number(driver);
     }
     @Test
-    public void new_Valid_Phone_Number(){
+    public void new_Valid_Phone_Number() throws InterruptedException {
         boolean phn_tick = phone_number.valid_Phn_Number(prop.getProperty("Valid_Phn_Number"));
         Assert.assertTrue(phn_tick);
+
     }
     @Test
     public void empty_Phone_Number() throws InterruptedException {
@@ -73,7 +72,7 @@ public class Enter_Phone_Number_Test extends BaseClass {
         System.out.println(msg);
         Assert.assertFalse(msg);
     }
-    @AfterMethod
+    @AfterTest
        public void tearDown(){
         driver.close();
     }

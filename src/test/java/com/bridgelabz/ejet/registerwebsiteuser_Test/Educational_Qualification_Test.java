@@ -17,7 +17,7 @@ public class Educational_Qualification_Test extends BaseClass {
     }
     @BeforeMethod
     public void setUp() throws IOException {
-        launch_RegisterwebsiteUser(prop.getProperty("RegisterwebsiteUserUrl"));
+        initialization(prop.getProperty("RegisterwebsiteUserUrl"));
         educational_qualification = new Educational_Qualification(driver);
     }
     @Test

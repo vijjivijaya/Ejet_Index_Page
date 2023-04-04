@@ -23,15 +23,20 @@ public class Enter_Phone_Number extends BaseClass {
         PageFactory.initElements(driver, this);
     }
 
-public boolean valid_Phn_Number(String phn_no){
+public boolean valid_Phn_Number(String phn_no) throws InterruptedException {
     phn_no_text_field.sendKeys(phn_no);
+    Thread.sleep(3000);
     boolean icon = tick_icon.isDisplayed();
+    phn_no_text_field.clear();
+    Thread.sleep(3000);
     return icon;
 }
     public Boolean invalid_Phn_Number(String invalid_phn) throws InterruptedException {
         phn_no_text_field.sendKeys(invalid_phn);
         Thread.sleep(3000);
         boolean value= invalid_phn_no_msg.isDisplayed();
+        phn_no_text_field.clear();
+        Thread.sleep(3000);
         return value;
     }
     public Boolean when_User_Remove_Invalid_Phn_No_From_Phn_Field(String num) throws InterruptedException {

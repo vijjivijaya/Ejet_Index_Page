@@ -18,7 +18,7 @@ public class Select_Year_Of_Passout_Test extends BaseClass {
     }
     @BeforeMethod
     public void setUp() throws IOException {
-        launch_RegisterwebsiteUser(prop.getProperty("RegisterwebsiteUserUrl"));
+        initialization(prop.getProperty("RegisterwebsiteUserUrl"));
         select_year_of_passout = new Select_Year_Of_Passout(driver);
     }
     @Test

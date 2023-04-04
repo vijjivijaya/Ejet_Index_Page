@@ -3,9 +3,7 @@ package com.bridgelabz.ejet.registerwebsiteuser_Test;
 import com.bridgelabz.ejet.base.BaseClass;
 import com.bridgelabz.ejet.registerwebsiteuser.Email_Id;
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 import java.io.IOException;
 
@@ -15,9 +13,9 @@ public class Email_Id_Test extends BaseClass {
     public Email_Id_Test() throws IOException {
         super();
     }
-    @BeforeMethod
+    @BeforeTest
     public void setUp() throws IOException {
-        launch_RegisterwebsiteUser(prop.getProperty("RegisterwebsiteUserUrl"));
+        initialization(prop.getProperty("RegisterwebsiteUserUrl"));
         email_id = new Email_Id(driver);
     }
     @Test
@@ -65,7 +63,7 @@ public class Email_Id_Test extends BaseClass {
         boolean msg=email_id.enter_And_Remove_EmailId(prop.getProperty("valid_Email_Id"));
         Assert.assertTrue(msg,"Email Required");
     }
-    @AfterMethod
+    @AfterTest
    public void tearDown(){
         driver.close();
     }

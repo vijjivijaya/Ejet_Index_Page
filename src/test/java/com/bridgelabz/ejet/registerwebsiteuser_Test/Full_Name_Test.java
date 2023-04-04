@@ -4,9 +4,7 @@ import com.bridgelabz.ejet.base.BaseClass;
 import com.bridgelabz.ejet.registerwebsiteuser.Enter_Phone_Number;
 import com.bridgelabz.ejet.registerwebsiteuser.Full_Name;
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 import java.io.IOException;
 
@@ -16,9 +14,9 @@ public class Full_Name_Test extends BaseClass {
     public Full_Name_Test() throws IOException {
         super();
     }
-    @BeforeMethod
+    @BeforeTest
     public void setUp() throws IOException {
-        launch_RegisterwebsiteUser(prop.getProperty("RegisterwebsiteUserUrl"));
+        initialization(prop.getProperty("RegisterwebsiteUserUrl"));
         name = new Full_Name(driver);
     }
     @Test
@@ -71,7 +69,7 @@ public class Full_Name_Test extends BaseClass {
         boolean msg = name.enter_And_Remove_Value_From_FullName(prop.getProperty("valid_FullName"));
         Assert.assertTrue(msg,"You must enter a Full Name");
     }
-    @AfterMethod
+    @AfterTest
     public void tearDown(){
         driver.close();
     }

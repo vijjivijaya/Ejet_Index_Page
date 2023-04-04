@@ -31,6 +31,8 @@ public class Email_Id extends BaseClass {
         } else if (error_msg.equals("Email Required")) {
             value= email_req.isDisplayed();
         }
+        email_id.clear();
+        Thread.sleep(3000);
         return value;
     }
     public boolean invalid_Email_Id(String valid_emailid) throws InterruptedException {
@@ -38,6 +40,8 @@ public class Email_Id extends BaseClass {
         Thread.sleep(3000);
         String error_msg=invalid_email.getText();
         boolean value=invalid_email.isDisplayed();
+        email_id.clear();
+        Thread.sleep(3000);
         return value;
     }
     public boolean enter_And_Remove_EmailId(String valid_emailid) throws InterruptedException {
